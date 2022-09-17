@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RegistrationFormcss.css">
+    <title>Document</title>
+    <script defer src="./RegisterScript.js"></script>
+</head>
+
+<body>
+    <div class="Registration">
+        <h1>Create New Profile</h1>
+     <form id="regform" action="/">
+        <label for="Fname">First Name</label>
+        <input type="text" id="Fname" name="firstname" placeholder="Enter First Name"><br>
+   
+        <label for="Lname">Last Name</label>
+        <input type="text" id="Lname" name="lastname" placeholder="Enter Last Name"><br>
+         
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+   
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+   
+        <label for="IDno">ID Number</label>
+        <input type="text" id="IDno" name="IDNumber" placeholder="Enter ID Number"><br>
+   
+        <label for="address">Address</label>
+        <input type="text" id="address" name="Address" placeholder="Enter Address"><br>
+   
+        <label for="contact">Contact</label>
+        <input type="text" id="contact" name="Contact" placeholder="Enter Contact Number"><br>
+   
+        <label >Occupation</label><br>
+        <input type="radio" id="Driver" name="Occupation" value="Driver">
+        <label for="Driver">Driver</label>
+   
+        <input type="radio" id="Owner" name="Occupation" value="Owner">
+        <label for="Owner">Owner</label><br>
+   
+        <label for="Taxi">Taxi Registration</label>
+        <input type="text" id="Taxi" name="Taxi Registration" placeholder="Enter Registration Number"><br>
+   
+        <label for="Rank">Rank</label>
+        <select name="Rank" id="Rank">
+         <option value="Bellville">Bellville</option>
+         <option value="Mowbry">Mowbry</option>
+         <option value="Cape Town">CapeTown</option>
+         <option value="Khayelitsha">Khayelitsha</option>
+   
+        </select><br>
+   
+        <label for="TaxiRoute">TaxiRoute</label>
+        <select name="TaxiRoute" id="TaxiRoute">
+         <option value="Bellville to Mowbry">Bellville-Mowbry</option>
+         <option value="Mowbry to CapeTown">Mowbry-CapeTown</option>
+         <option value="CapeTown to Bellville">CapeTown-Bellville</option>
+         <option value="Khayelitsha to CapeTown">Khayelitsha-CapeTown</option>
+   
+        </select>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" placeholder="Create Email"><br>
+
+        <label for="ConfirmEmail">ConfirmEmail</label>
+        <input type="email" id="ConfirmEmail" name="ConfirmEmail" placeholder="ConfirmEmail"><br>
+
+        <label for="CreatePassword">Create password</label>
+        <input type="password" id="CreatePassword" name="CreatePassword" placeholder="Enter New Password"><br>
+
+        <label for="ConfirmPassword">Confirm Password</label>
+         <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm Password"><br>
+
+        <input type="submit" value="Submit">
+        </form>
+     
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(wall3.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    font-family: sans-serif;
+}
+.Registration{
+    width: 650px;
+    height: 1200px;
+    background: rgb(10, 35, 85);
+    color: rgb(218, 211, 209);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-30%);
+    box-sizing:border-box;
+    padding: 70px 30px;
+}
+.h1{
+    margin: 0%;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: aliceblue;
+}
+input[type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+input[type=radio]{
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(20, 255, 4);
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+    font-size : 16px;
+}
